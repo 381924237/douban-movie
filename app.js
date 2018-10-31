@@ -174,7 +174,7 @@ var search = {
 		var _this = this;
 		_this.$parents.find('.loading').show();
 		$.ajax({
-			url: 'http://api.douban.com/v2/movie/search',
+			url: 'https://api.douban.com/v2/movie/search',
 			data: {
 				q: _this.keyword
 			},
